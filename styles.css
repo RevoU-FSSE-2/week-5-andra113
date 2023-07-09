@@ -18,6 +18,8 @@
 .nav-bar {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 0;
+    position: sticky;
 }
 
 .right-bar{
@@ -48,13 +50,31 @@
 }
 
 .container {
-    background: linear-gradient(to bottom left,#F8DBB2, #ABC2E0);
+    background-color:#Fada5c; 
+    margin-top: -20px;
 }
 
-.top-section {
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+}
+
+.text-side h2{
+    padding: 10px 0;
+}
+
+.flex-bottom {
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+}
+/* .top-section {
     display: flex;
     justify-content: space-between;
-}
+} */
 
 .img-flex {
     width: 50vh;
