@@ -93,7 +93,32 @@
 }
 
 .left-box {
+    display: flex;
     width: 635px;
     height: 381px;
     border: solid black ;
+    justify-content: space-between;
+}
+
+.description-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.description-text h3 {
+    text-align: right;
+}
+.right-box {
+    display: flex;
+    align-items: center;
+}
+
+.services-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.services-text li {
+    list-style-type: "-";
+    padding: 10px;
 }
