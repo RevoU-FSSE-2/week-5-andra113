@@ -54,6 +54,10 @@
     margin-top: -20px;
 }
 
+.margin {
+    margin-bottom: 100px;
+}
+
 .wrapper {
     display: flex;
     flex-wrap: wrap;
@@ -78,4 +82,18 @@
 
 .img-flex {
     width: 50vh;
+}
+
+.container-2 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    z-index: 2;
+    gap: 10vh;
+}
+
+.left-box {
+    width: 635px;
+    height: 381px;
+    border: solid black ;
 }
