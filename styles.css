@@ -94,10 +94,12 @@
 
 .left-box {
     display: flex;
+    background-color: #F9A7B0;
     width: 635px;
     height: 381px;
     border: solid black ;
     justify-content: space-between;
+    align-items: center;
 }
 
 .description-text {
@@ -106,7 +108,7 @@
 }
 
 .description-text h3 {
-    text-align: right;
+    padding-bottom: 10px;
 }
 .right-box {
     display: flex;
@@ -121,4 +123,10 @@
 .services-text li {
     list-style-type: "-";
     padding: 10px;
+    cursor: pointer;
 }
+
+#hidden-shown {
+    display: none;
+}
+
