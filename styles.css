@@ -126,7 +126,7 @@
     cursor: pointer;
 }
 
-#hidden-shown {
+.hidden-shown {
     display: none;
 }
 
