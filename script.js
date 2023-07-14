@@ -1,7 +1,9 @@
 const clickKonsultasi = document.getElementById('konsultasi')
 const clickMentoring = document.getElementById('mentoring')
 const clickTes = document.getElementById('tes')
+const clickMenu = document.getElementById('button')
 
+const navRightBar = document.getElementById('right-bar')
 const showHiddenKonsultasi = document.getElementById('hidden-shown konsultasi')
 const showHiddenMentoring = document.getElementById('hidden-shown mentoring')
 const showHiddenTes = document.getElementById('hidden-shown tes')
@@ -34,4 +36,14 @@ clickTes.addEventListener('click', function() {
     } else {
         showHiddenTes.style.display = 'none'
     }
+})
+
+clickMenu.addEventListener('click', function() {
+    if (navRightBar.style.right === '-100%') {
+        navRightBar.style.right = '0'
+    } else {
+        navRightBar.style.right = '-100%'
+    }
+    
+    
 })

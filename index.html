@@ -5,7 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+
     <title>Satu Persen</title>
+
 </head>
 
 <body>
@@ -15,12 +18,16 @@
                 <img src="images/therapy-mind-high-resolution-color-logo.png" alt="Logo" class="logo">
                 <p>Logo</p>
             </div>
-            <ul class="right-bar">
-                <li><a href="#services">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
+
+            <div class="right-bar" id="right-bar">
+                <a href="#services">Home</a>
+                <a href="#">About</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+            </div>
+            <a href="#hamburger-button" id="button"><i data-feather="menu"></i></a>
+
+
         </nav>
     </header>
 
@@ -94,7 +101,7 @@
                     <div class="services-text">
                         <h3>Our services</h3>
                         <ul>
-                            <li id="konsultasi">Konsultasi</a></li>
+                            <li id="konsultasi">Konsultasi</li>
                             <li id="mentoring">Mentoring</li>
                             <li id="tes">Tes Psikologi</li>
                         </ul>
@@ -103,27 +110,35 @@
             </div>
         </div>
 
+        <div class="container">
+            <div class="carousel-container">
+                <input type="radio" name="position" />
+                <input type="radio" name="position" />
+                <input type="radio" name="position" checked />
+                <input type="radio" name="position" />
+                <input type="radio" name="position" />
+                <div id="carousel">
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                    <div class="item"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" id="about-us"></div>
     </main>
 
-    <div class="carousel-container">
-        <input type="radio" name="position" checked />
-        <input type="radio" name="position" />
-        <input type="radio" name="position" />
-        <input type="radio" name="position" />
-        <input type="radio" name="position" />
-        <div id="carousel">
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-            <div class="item"></div>
-        </div>
-    </div>
 
-    <div class="container" id="about-us">
+
+
 
     </div>
     <script src="script.js"></script>
+    <script>
+        feather.replace()
+    </script>
 </body>
 
 </html>
