@@ -12,6 +12,7 @@
 </head>
 
 <body>
+    <!-- navigation bar -->
     <header>
         <nav class="nav-bar">
             <div class="left-bar">
@@ -20,19 +21,22 @@
             </div>
 
             <div class="right-bar" id="right-bar">
-                <a href="#services">Home</a>
-                <a href="#">About</a>
-                <a href="#">Services</a>
-                <a href="#">Contact</a>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
             </div>
             <a href="#hamburger-button" id="button"><i data-feather="menu"></i></a>
 
 
         </nav>
     </header>
+    <!-- end of navigation bar -->
 
+    <!-- main element -->
     <main>
-        <div class="container bg-color" id="home">
+        <!-- start of home section -->
+        <section class="container bg-color" id="home">
             <h1 class="heading-1">Theraphy Mind</h1>
             <P class="subheading-1">Mental Health Startup</P>
             <div class="wrapper">
@@ -40,15 +44,17 @@
                     <h2>Masalah kesehatan mental <br> meningkat dua kali lipat <br> selama pandemi</h2>
                     <p>Tanpa kamu sadari, kamu bisa jadi salah satunya. <br>
                         Yuk, bergabung bersama 25,000+ orang lainnya untuk <br>
-                        belajar menjaga kesehatan mental bersama mentor coming soon.</p>
+                        belajar menjaga kesehatan mental bersama mentor Therapy mind.</p>
                 </div>
                 <div>
                     <img src="images/Not connecting.png" alt="not-connecting" class="img-flex">
                 </div>
             </div>
-        </div>
+        </section>
+        <!-- end of home section -->
 
-        <div class="container">
+        <!-- start of our services section -->
+        <section class="container">
             <div class="wrapper services-box" id="services">
                 <div class="left-box">
                     <div id="hidden-shown konsultasi" class="hidden-shown">
@@ -64,7 +70,7 @@
                                 sendiri
                                 atau
                                 orang
-                                lain? Konsultasikan Aja Dengan Psikolog !</p>
+                                lain? Konsultasikan Aja Dengan Psikolog Therapy Mind!</p>
                         </div>
                     </div>
 
@@ -75,7 +81,7 @@
                         <div class="description-text">
                             <h3>Mentoring</h3>
                             <p>Punya Masalah Kecemasan? Overthinking? Sulit Mengelola Emosi & Belum Mengenal Jati Diri?
-                                Konsultasiin aja bersama !</p>
+                                Konsultasiin aja bersama Mentor Therapy Mind!</p>
                         </div>
                     </div>
 
@@ -85,14 +91,8 @@
                         </div>
                         <div class="description-text">
                             <h3>Tes Sehat Mental</h3>
-                            <p>Kamu merasa mulai hilang kendali akan hidupmu? Mungkin kamu merasa masalahmu mulai
-                                mengganggu
-                                banyak
-                                aspek kehidupanmu. Atau bahkan, apa mungkin masalahmu membuatmu membahayakan diri
-                                sendiri
-                                atau
-                                orang
-                                lain? Konsultasikan Aja Dengan Psikolog Satu Persen!</p>
+                            <p>Bagaimana kabarmu akhir-akhir ini? Cek kondisi kesehatan mentalmu yuk! (Tes Usia Mental)
+                            </p>
                         </div>
                     </div>
 
@@ -108,33 +108,54 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+        <!-- end of our services section section -->
 
-        <div class="container">
-            <div class="carousel-container">
-                <input type="radio" name="position" />
-                <input type="radio" name="position" />
-                <input type="radio" name="position" checked />
-                <input type="radio" name="position" />
-                <input type="radio" name="position" />
-                <div id="carousel">
-                    <div class="item"></div>
-                    <div class="item"></div>
-                    <div class="item"></div>
-                    <div class="item"></div>
-                    <div class="item"></div>
+
+        <!-- start of about us section -->
+        <section class="container" id="about">
+            <h2 class="about-heading">Our team</h2>
+            <div class="wrapper about">
+                <div class="person">
+                    <h3>Mentor</h3>
+                    <img src="https://avataaars.io/?avatarStyle=Circle&topType=Hijab&accessoriesType=Wayfarers&hatColor=PastelGreen&facialHairType=MoustacheMagnum&facialHairColor=Brown&clotheType=GraphicShirt&clotheColor=Black&graphicType=Cumbia&eyeType=Hearts&eyebrowType=SadConcerned&mouthType=Eating&skinColor=Tanned"
+                        alt="Mentor">
+                    <p>Mentor kami yang berdedikasi adalah seorang profesional yang sangat terampil dan mengkhususkan
+                        diri dalam membimbing individu dalam perjalanan kesehatan mental mereka. Dengan pendekatan yang
+                        penuh kasih dan empati, mereka memberikan dukungan, dorongan, dan strategi praktis untuk
+                        membantu individu mengatasi tantangan dan mencapai pertumbuhan pribadi. Mereka berkomitmen untuk
+                        memberdayakan orang lain agar mengembangkan ketahanan dan meningkatkan kesejahteraan secara
+                        keseluruhan.</p>
+                </div>
+                <div class="person">
+                    <h3>CEO</h3>
+                    <img src='https://avataaars.io/?avatarStyle=Circle&topType=ShortHairShortFlat&accessoriesType=Prescription02&hairColor=Black&facialHairType=BeardMedium&facialHairColor=BrownDark&clotheType=Hoodie&clotheColor=Gray01&eyeType=Surprised&eyebrowType=SadConcernedNatural&mouthType=Vomit&skinColor=Yellow'
+                        alt="Ceo">
+                    <p>CEO kami adalah seorang pemimpin yang visioner dengan gairah dalam bidang kesehatan mental.
+                        Dengan pengalaman bertahun-tahun di industri ini, mereka membawa arah strategis dan semangat
+                        kepada startup kami. Mereka berkomitmen untuk menyediakan solusi inovatif dan memberikan dampak
+                        positif pada kesejahteraan mental individu. Kepemimpinan mereka menginspirasi tim kami untuk
+                        mencapai misi kami dalam mempromosikan kesehatan mental.</p>
+                </div>
+                <div class="person">
+                    <h4>Psychologist</h4>
+                    <img src="https://avataaars.io/?avatarStyle=Circle&topType=LongHairCurly&accessoriesType=Kurt&hairColor=Red&facialHairType=Blank&clotheType=Overall&clotheColor=Blue01&eyeType=Cry&eyebrowType=RaisedExcitedNatural&mouthType=Tongue&skinColor=Brown"
+                        alt="Psychologist">
+                    <p>Psikolog berpengalaman kami memainkan peran penting dalam tim kami, menyediakan pengetahuan dan
+                        wawasan ahli dalam berbagai aspek kesehatan mental. Dengan pemahaman mendalam mereka tentang
+                        perilaku manusia dan proses mental, mereka memberikan intervensi berbasis bukti, konseling, dan
+                        terapi untuk mengatasi berbagai masalah kesehatan mental. Keahlian mereka berkontribusi pada
+                        pengembangan dan penyediaan layanan kesehatan mental yang efektif untuk klien kami.</p>
                 </div>
             </div>
-        </div>
-
-        <div class="container" id="about-us"></div>
+        </section>
     </main>
+    <!-- end of main element -->
 
 
 
 
 
-    </div>
     <script src="script.js"></script>
     <script>
         feather.replace()
